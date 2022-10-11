@@ -1,5 +1,7 @@
 public class Dogs {
-    public Dogs(){
 
+    private int count;
+    public Dogs(){
+      count++;
     }
 }

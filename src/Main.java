@@ -7,10 +7,13 @@ public class Main {
         git config --list
 
         git init
-        git add .
+        git add .  /or/  git add "necessary file"
         git commit -m "commit description"
         git remote add origin "repository path"
         git push -u origin <master>
+
+        git clone adress
+
         * */
     }
 
