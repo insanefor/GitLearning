@@ -10,9 +10,11 @@ public class Main {
         git add .  /or/  git add "necessary file"
         git commit -m "commit description"
         git remote add origin "repository path"
-        git push -u origin <master>
+        git push -u origin <master>  - выгрузить в ветку облака
 
         git clone adress
+
+        git pull  -  обновление проекта с облака
 
         * */
     }
