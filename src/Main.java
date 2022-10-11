@@ -15,8 +15,30 @@ public class Main {
         git clone adress
 
         git pull  -  обновление проекта с облака
+        ///////////////////////////////////////////////////////
+        Lesson 6 - Aliases
+
+        заходим в .gitconfig path: C:\Users\CurrentUser
+        [alias]
+             ....Переопределяем команды
+             s = status --short
+             и т.д.
+        ///////////////////////////////////////////////////////
+        Lesson 7
+
+        git checkout -- path. - возврат до последнего необновленного состояния конкретного файла
+        git checkout .    -  откат всего
+
+        В случае, если файл уже был добавлен add
+        1.1 git reset --hard <HEAD^1>
+        1.2 git reset --soft <HEAD^1>
+        2. git checkout
+
+
+
 
         * */
+        System.out.println("some new");
     }
 
 }
