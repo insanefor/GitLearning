@@ -11,9 +11,7 @@ public class Main {
         git commit -m "commit description"
         git remote add origin "repository path"
         git push -u origin <master>  - выгрузить в ветку облака
-
         git clone adress
-
         git pull  -  обновление проекта с облака
         ///////////////////////////////////////////////////////
         Lesson 6 - Aliases
@@ -41,6 +39,10 @@ public class Main {
          git branch -v  current br + latest commit
          git branch newBranch - create one more branch
          git checkout newBranch - switch between branches
+         git branch -m renameCurrentBranch
+         git branch -d nameOfwanted to delete branch
+
+         git checkout hashCodeofAnyExhistedCommits - switchIntotheCommits
 
          faster method: git co -b branchName  - create new branch and permanently switch into
              * */
