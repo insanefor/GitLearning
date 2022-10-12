@@ -27,17 +27,22 @@ public class Main {
         Lesson 7
 
         git checkout -- path. - возврат до последнего необновленного состояния конкретного файла
-        git checkout .    -  откат всего
+        git checkout -- .    -  откат всего
 
         В случае, если файл уже был добавлен add
         1.1 git reset --hard <HEAD^1>
-        1.2 git reset --soft <HEAD^1>
-        2. git checkout
+        1.2 git reset --soft <HEAD^1>            1.1 and 1.2 if a commit was made
+        1.3 git reset .                          1.3 if files have been added
+          1.3.1 git checkout -- . - Откат всего
+          1.3.2 git checkout -- path. - возврат до последнего необновленного состояния конкретного файла
+       //////////////////////////////////////////////////////////
+         Lesson 8 - Branch
+         git branch - current branch
+         git branch -v  current br + latest commit
+         git branch newBranch - create one more branch
+         git checkout newBranch - switch between branches
+             * */
 
-
-
-
-        * */
         System.out.println("some new");
     }
 
