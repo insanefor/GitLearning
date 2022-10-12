@@ -41,6 +41,8 @@ public class Main {
          git branch -v  current br + latest commit
          git branch newBranch - create one more branch
          git checkout newBranch - switch between branches
+
+         faster method: git co -b branchName  - create new branch and permanently switch into
              * */
 
         System.out.println("some new");
